@@ -1,3 +1,9 @@
 color {
     background-color: lightblue;
 }
+ul {
+    display: inline;
+}
+li {
+    display: inline;
+}
