@@ -7,3 +7,9 @@ ul {
 li {
     display: inline;
 }
+.sidebar {
+    text-align: center;
+}
+i {
+    font-size: 30px;
+}
