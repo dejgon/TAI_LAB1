@@ -10,6 +10,40 @@ li {
 .sidebar {
     text-align: center;
 }
-i {
+.a-icon {
     font-size: 30px;
+}
+.a-icon:link {
+    color: black;
+}
+.a-icon:visited {
+    color: black;
+}
+.a-icon:hover {
+    color: red;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    flex: 1 0 auto;
+    min-height: 100%;
+}
+.footer {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    width: 100%;
+}
+.nav-link {
+    color: black;
+    font-size: 20px;
+}
+.navbar-brand {
+    font-size: 20px;
 }
