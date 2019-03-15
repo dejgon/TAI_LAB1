@@ -18,7 +18,6 @@ let nav = '<nav class="navbar navbar-light bg-light">' +
 
 let elem = document.querySelector('.navbar');
 elem.innerHTML = nav;
-console.log("Done");
 let scrollBtn = document.querySelector('.scrollBtn');
 let scroll = document.querySelector('.scroll');
 
