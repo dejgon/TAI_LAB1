@@ -5,10 +5,10 @@ let nav = '<nav class="navbar navbar-light bg-light">' +
     '<a class="nav-link" href="index.html">HOME</a>' +
     '</li>' +
     '<li class="nav-item">' +
-    '<a class="nav-link" href="#">BLOG</a>' +
+    '<a class="nav-link" href="">BLOG</a>' +
     '</li>' +
     '<li class="nav-item">' +
-    '<a class="nav-link" href="#">QUIZ</a>' +
+    '<a class="nav-link" href="quiz.html">QUIZ</a>' +
     '</li>' +
     '<li class="nav-item">' +
     '<a class="nav-link" href="contact.html">KONTAKT</a>' +
@@ -16,6 +16,6 @@ let nav = '<nav class="navbar navbar-light bg-light">' +
     '</ul>' +
     '</nav>';
 
-let elem = document.querySelector(".navbar");
+let elem = document.querySelector('.navbar');
 elem.innerHTML = nav;
 console.log("Done")

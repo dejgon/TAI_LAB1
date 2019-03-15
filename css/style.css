@@ -27,17 +27,21 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 .container {
     flex: 1 0 auto;
     min-height: 100%;
 }
 .footer {
+    text-align: center;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
 }
 .navbar {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
     width: 100%;
 }
 .nav-link {

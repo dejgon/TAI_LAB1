@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    font-size: 14px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.correct {
+    background-color: #289a27;
+}
+
+.incorrect {
+    background-color: #c41a21;
+}
+
+.buttons {
+    padding: 10px 10px 10px 0;
+}
+.container, .list {
+    margin-top: 70px;
+}
+.none {
+    display: none;
+}
+.answersContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.userAnswer {
+    display: flex;
+    margin-right: 1px;
+    width: 5%;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
